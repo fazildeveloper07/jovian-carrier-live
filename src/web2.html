@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>
+        MY first web page
+      </title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <div id="navbar">
+       <img id="logo" src="https://i.imgur.com/m1wXjqw.png" alt="jovian logo">
+      </div>
+      <img  id="banner" src="banner.jpg.jpg" alt="banner" height="240">
+      <h1>about jovion</h1>
+      <div id="about">
+       <div id="description">
+        <p style="margin-top: 0;">
+          At jovion, we're on a mission to build
+          the world's most highly reputed technical
+          university, and we're building completely
+          online. we offer several beginner freindly
+          courses that are taken by 300,000+ registered
+          users.
+        </p>
+        <p>
+          We also offers 2 indusrty-focused bootcamps
+          <ol>
+            <Li>
+              <a href="https://jovian.com/learn/web-development-with-html-and-css">
+              jovion full stack developer bootcamp
+            </a>
+            </Li>
+            <li>
+              <a href="https://jovian.com/learn/data-analysis-with-python-zero-to-pandas">   
+                   jovion cyber security bootcamp
+                   </a>
+            </li>
+          </ol>
+        </p>
+       </div>
+       <div id="team">
+        <img id="teamimage" src="banner2.jpg.jpg" alt="team">
+       </div>
+      </div>
+      <h2>job opportunities</h2>
+      <div id="jobs">
+        <table  id="jobs-table">
+           <tr class="jobs-header-row">
+              <th rowspan="2">Job title</th>
+              <th colspan="2">Location</th>
+              <th rowspan="2">salary</th>
+              <th rowspan="2">posted on</th>
+              <th rowspan="2">experiance</th> 
+           </tr> 
+           <tr class="jobs-header-row">
+            <th>city</th>
+            <th>country</th>
+           </tr>
+           <tr class="jobs-data-row">
+            <td>frontend developer</td>
+            <td>bangalore</td>
+            <td>india</td>
+            <td>₹12,00,000</td>
+            <td>mar 3,2024</td>
+            <td>fresher</td>
+           </tr>
+           <tr class="jobs-data-row">
+            <td>backend developer</td>
+            <td>mumbai</td>
+            <td>india</td>
+            <td>₹15,00,000</td>
+            <td>jan 25,2024</td>
+            <td>2 year</td>
+           </tr>
+           <tr class="jobs-data-row">
+            <td>full stack developer</td>
+            <td>silicon valley</td>
+            <td>USA</td>
+            <td>$180,000</td>
+            <td>nov 23,2023</td>
+            <td>2 year</td>
+           </tr>
+           <tr class="jobs-data-row">
+            <td>ML engineer</td>
+            <td colspan="2">remote</td>
+            <td>$200,000</td>
+            <td>may 19,2024</td>
+            <td>3 year</td>
+           </tr>
+
+        </table>
+      </div>
+      <div id="application">
+         <h2>submit your application</h2>
+         <form id="application-form">
+          <div class="form-group">
+            <label for="name">Full Name</label><br>
+           <input type="text" id="name" name="full Name" required placeholder="Bill gate">
+           </div>
+
+           <div class="form-group">
+            <label for="email">email</label><br>
+            <input type="email" id="email" name="email address" required placeholder="billgate@example.com">
+           </div>
+
+           <div class="form-group">
+             <label for="Phone" >Phone</label><br>
+             <input type="tel" id="phone" name="phone number" required placeholder="+919482186836">
+           </div>
+
+           <div class="form-group">
+              <label for="dob">Date of birth</label><br>
+              <input type="date" id="dob" name="dob" required>
+           </div>
+
+           <div class="form-group">
+             <label for="position">Position applied for</label><br>
+             <select id="position" name="position applied" required>
+              <option>Select position </option>
+              <option value="frontend developer">Frontend developer</option>
+              <option value="backend developer">Backend developer</option>
+              <option value="fullstack developer">Full stack developer</option>
+              <option value="ml engineer">ML engineer</option>
+             </select>
+           </div>
+
+           <div class="form-group">
+            <label for="resume">upload resume</label><br>
+            <input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx" required>
+           </div>
+
+           <div class="form-group">
+            <label for="coverletter">cover letter</label><br>
+            <textarea id="coverletter" name="coverletter" rows="5" placeholder="Explain what makes you suitable for the job.."></textarea>
+           </div>
+
+           <div class="form-group">
+            <label for="terms">
+              <input type="checkbox" id="terms" name="terms" required>
+              i agree to the terms and condition
+            </label>
+           </div>
+
+           <div class="form-group">
+             <input type="submit" value="Submit application">
+           </div>
+         </form>
+      </div>
+      <dev id="footer">
+        <ul id="footer-link">
+          <li>
+            <a href="https://jovian.com/learn" target="_blank">
+            courses
+            </a>
+          </li>
+          <li>
+            <a href="https://jovian.com/learn" target="_blank">
+            programmes 
+          </a>
+          </li>
+          <li>
+          <a href="https://youtube.com/@jovianhq" target="_blank">
+            youtube
+            </a>
+          </li> 
+          </ul>
+          <span class="copyright">©2024-jovian</span>   
+      </dev>
+    </body>
+</html>
